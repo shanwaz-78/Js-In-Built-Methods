@@ -11,3 +11,4 @@
 ### __11.__ -> [flat Methods.](./array/flat.js)<br>
 ### __12.__ -> [flatMap Method.](./array/flatMap.js)<br>
 ### __13.__ -> [Array From Method.](./array/Arrayfrom.js)<br>
+### __14.__ -> [IsArray.](./array/IsArray.js)<br>
