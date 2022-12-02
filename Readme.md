@@ -1,5 +1,5 @@
 ### _Array Method's._
-
+### __1.__ -> [FindLast Method.](./array/findLast.js)
 ### __2.__ -> [entries Method.](./array/entries.js)<br>
 ### __3.__ -> [every Method.](./array/every.js)<br>
 ### __1.__ -> [at Method.](./array/at.js)<br>
@@ -12,3 +12,5 @@
 ### __12.__ -> [flatMap Method.](./array/flatMap.js)<br>
 ### __13.__ -> [Array From Method.](./array/Arrayfrom.js)<br>
 ### __14.__ -> [IsArray.](./array/IsArray.js)<br>
+### __15.__ -> [Include Method.](./array/Include.js)<br>
+### __16.__ -> [IndexOf Method.](./array/IndexOf.js)<br>
