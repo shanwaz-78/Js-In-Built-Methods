@@ -11,4 +11,5 @@ arr.forEach(check =>{
 console.log("\n")
 
 // instead of this you can use these method.
+
 arr.forEach(element => console.log(element));
