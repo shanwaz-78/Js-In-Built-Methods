@@ -9,4 +9,5 @@ console.log(beasts.indexOf("bison",2));
 // Expected output 4;
 
 console.log(beasts.indexOf("cat",2));
-// Expected output -1;
+// Expected output -1; 
+
