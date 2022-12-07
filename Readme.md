@@ -14,7 +14,9 @@
 ### __14.__ -> [IsArray.](./array/IsArray.js)<br>
 ### __15.__ -> [Include Method.](./array/Include.js)<br>
 ### __16.__ -> [IndexOf Method.](./array/IndexOf.js)<br>
-### __16.__ -> [LastindexOf.](./array/keys.js)<br>
+### __16.__ -> [LastindexOf.](./array/lastIndexOf.js)<br>
 ### __16.__ -> [Keys Method.](./array/keys.js)<br>
 ### __16.__ -> [Map Method.](./array/map.js)<br>
 ### __16.__ -> [ArrayOf Method.](./array/ArrayOf.js)<br>
+### __16.__ -> [PoP.](./array/pop.js)<br>
+### __16.__ -> [Reduce.](./array/reduce.js)<br>
