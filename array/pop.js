@@ -4,6 +4,6 @@
 const plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
 console.log(plants.pop());
 // 'tomato';
-
+console.log(plants.push("ladyfinger"));
 // Expected output;
 // ['broccoli', 'cauliflower', 'cabbage', 'kale'];
