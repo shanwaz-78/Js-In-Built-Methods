@@ -4,4 +4,3 @@
 const str = "This Is Just Text";
 console.log(str.substring(2,9));
  // Expected output "is Is J";
- 
