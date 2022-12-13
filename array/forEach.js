@@ -16,7 +16,7 @@ arr.forEach(element => console.log(element));
 
 const array1 = ['a', 'b', 'c'];
 
-array1.forEach(element => {
+array1.forEach(element => { 
      element = element + 's';
       console.log(element);
 });
