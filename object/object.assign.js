@@ -3,6 +3,7 @@
 
 const obj1 = {a:1, b:3, c:6};
 const obj2 = {a:2,d:8};
+// he overwrite the value of a with 2;
 
 const val = Object.assign(obj1,obj2);
 console.log(val)
