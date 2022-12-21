@@ -9,3 +9,10 @@ Object.preventExtensions(tryobj);
 // we cannot add any value on this obj after use this method;
 // Expected output false;
 console.log(Object.isExtensible(tryobj)) 
+
+function getRandom(max,min) {
+    let x = Math.floor(Math.random() * (max - min)) + 70;
+    return x
+}
+
+console.log(getRandom(101,70))
