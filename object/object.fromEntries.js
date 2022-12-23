@@ -7,4 +7,4 @@ const entries = [
 
 // He transforms the values of lists into object.
 const val = Object.fromEntries(entries);
-console.log(val);
+console.log(val); 
