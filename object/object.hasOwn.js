@@ -7,3 +7,10 @@ const obj1 = {
 };
 
 console.log(Object.hasOwn(obj1,'fruitName'));
+
+document.querySelector("button").addEventListener('mouseenter',(e) => {
+document.querySelector("button").addEventListener("mouseout",(e) => {
+    e.target.style.color = '';
+})
+    e.target.style.color = 'red'
+})

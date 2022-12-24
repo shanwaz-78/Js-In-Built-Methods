@@ -7,3 +7,10 @@ const trlobj = {
 };
 
 console.log(Object.values(trlobj))
+
+// Arraw Function;
+const fn = num => `${num / 600 * 100}`; console.log(fn(303));
+// Get Percenteges with arraw function;
+
+const fn2 = (fname,lname) => `${fname} ${lname}`; 
+console.log(fn2('Shannwaz','Saleh'))
