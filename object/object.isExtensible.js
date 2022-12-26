@@ -11,7 +11,7 @@ Object.preventExtensions(tryobj);
 console.log(Object.isExtensible(tryobj)) 
 
 function getRandom(max,min) {
-    let x = Math.floor(Math.random() * (max - min)) + 70;
+    const x = Math.floor(Math.random() * (max - min)) + 70;
     return x
 }
 
