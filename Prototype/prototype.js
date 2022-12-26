@@ -1,5 +1,4 @@
 // Prototype is used to inherit the object properties or features to an another object.
-
 const Prototype = {
     getAge : function () {
         const age = new Date().getFullYear()-this.birth;
@@ -9,15 +8,19 @@ const Prototype = {
         return `${this.name} ${this.lname}`
     },
 };
+
  const obj = {
-    name : 'Shanwaz',
-    lname : 'khan',
+    name : 'Guru',
+    lname : 'Yadav',
+    ip : 293832123,
     favColor : 'red',
     birth : 2003,
  };
+
  const teacher = {
     subject : 'Maths',
     name : 'Rajesh',
+    number : 84390**321,
     lname : 'God',
     birth : 1989,
  };
