@@ -29,4 +29,3 @@ User2.__proto__ = passval;
 
 console.log(`${User.getFullName()} ${User.getAge()}`);
 console.log(`${User2.getFullName()} ${User2.getAge()}`);
-
