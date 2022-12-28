@@ -5,12 +5,13 @@ String.prototype.data = () => `This is initial function`;
 Object.prototype.appData = () => `Apps Data`;
 
 const passval = {
-    getAge : function() {
-        const age = new Date().getFullYear()-this.birth; 
-        return age;
-    },
-    getFullName : function() { 
-    return `${this.fname} ${this.lname}`;},
+  getAge: function () {
+    const age = new Date().getFullYear() - this.birth;
+    return age;
+  },
+  getFullName: function () {
+    return `${this.fname} ${this.lname}`;
+  },
 };
 
 const User = new Object();
