@@ -8,5 +8,5 @@ obj.b = 33;
 // Entries method make an array of every property's in an object.
 
 const val = Object.entries(obj);
-console.log(val[1][1])
+console.log(val)
 // Expected output 33;
