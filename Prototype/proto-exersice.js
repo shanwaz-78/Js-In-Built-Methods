@@ -14,11 +14,3 @@ method.prototype.divide = function () {
 
 const call = new divide(10, 20);
 console.log(call.divide().fn());
-
-const val = [1, 2, 3];
-Array.prototype.customMap = function () {
-  console.log(this);
-};
-
-val.customMap();
-[1, 2, 3].customMap();

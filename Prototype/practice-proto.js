@@ -30,3 +30,11 @@ User2.__proto__ = passval;
 
 console.log(`${User.getFullName()} ${User.getAge()}`);
 console.log(`${User2.getFullName()} ${User2.getAge()}`);
+
+const val = [1, 2, 3];
+Array.prototype.customMap = function () {
+  console.log(this);
+};
+
+val.customMap();
+[1, 2, 3].customMap(); 
