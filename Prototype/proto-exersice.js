@@ -5,7 +5,7 @@ function method(a, b) {
 
 method.prototype.divide = function () {
   const obj = {
-    fn() {
+   fn() {
       return [this.a, this.b, "Hello World !"];
     },
   };
