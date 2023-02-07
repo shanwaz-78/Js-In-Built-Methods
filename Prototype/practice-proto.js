@@ -37,4 +37,9 @@ Array.prototype.customMap = function () {
 };
 
 val.customMap();
-[1, 2, 3].customMap(); 
+[1, 2, 3].customMap();
+
+// == allows coercion;
+// === doesn't allow coercion;
+// !! is used to convert in boolean
+// in maximum cases we have to use ==)

@@ -7,8 +7,8 @@ console.log(Object.isExtensible(tryobj));
 // Expected output true;
 Object.preventExtensions(tryobj);
 // we cannot add any value on this obj after use this method;
+console.log(Object.isExtensible(tryobj))
 // Expected output false;
-console.log(Object.isExtensible(tryobj)) 
 
 function getRandom(max,min) {
     const x = Math.floor(Math.random() * (max - min)) + 70;
