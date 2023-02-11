@@ -42,4 +42,15 @@ val.customMap();
 // == allows coercion;
 // === doesn't allow coercion;
 // !! is used to convert in boolean
-// in maximum cases we have to use ==)
+// in maximum cases we have to use ==
+
+  
+const xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function () {
+  if (this.readyState == 4 && this.status == 200) {
+    console.log(this.response)
+  }
+}
+
+xhttp.open('GET','../index.html',true);
+xhttp.send();
