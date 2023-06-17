@@ -13,3 +13,4 @@ const obj = Object.create(person)
 obj.name = "Shanwaz";
 delete obj.ishuman;
 obj.introduction();
+  
